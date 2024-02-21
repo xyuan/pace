@@ -96,3 +96,9 @@ physics_config:
   do_qa: true
   schemes:
     - GFS_microphysics
+
+grid_config:
+  type:  generated
+  config:
+    eta_file: 'tests/main/input/eta79.nc'
+      
